@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="./images/icons/lara-oz-logo.svg" crossorigin="anonymous"></link>
+        <script src="https://kit.fontawesome.com/c1e8c6306e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <!-- menu for ipad and smaller screens=> slide in/out -->
+        <div class="menu-background" id="small-screen-menu">
+            <div class="responsive-menu">
+                <div class="menu-header">
+                    <a href="./index.html" title="Home" alternative="Home">
+                        <svg class="menu-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                        <g>
+                            <ellipse class="st0" cx="400.08" cy="200.97" rx="197.24" ry="197.36"/>
+                            <ellipse class="st1" cx="400.08" cy="299.66" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="400.08" cy="102.29" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="498.7" cy="200.97" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="301.45" cy="200.97" rx="98.62" ry="98.68"/>
+                            <ellipse class="st0" cx="400.08" cy="595.7" rx="197.24" ry="197.36"/>
+                            <ellipse class="st1" cx="400.08" cy="694.39" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="400.08" cy="497.02" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="498.7" cy="595.7" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="301.45" cy="595.7" rx="98.62" ry="98.68"/>
+                            <ellipse class="st0" cx="202.83" cy="398.34" rx="197.24" ry="197.36"/>
+                            <ellipse class="st1" cx="301.45" cy="398.34" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="104.21" cy="398.34" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="202.83" cy="299.66" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="202.83" cy="497.02" rx="98.62" ry="98.68"/>
+                            <ellipse class="st0" cx="597.32" cy="398.34" rx="197.24" ry="197.36"/>
+                            <ellipse class="st1" cx="695.94" cy="398.34" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="498.7" cy="398.34" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="597.32" cy="299.66" rx="98.62" ry="98.68"/>
+                            <ellipse class="st1" cx="597.32" cy="497.02" rx="98.62" ry="98.68"/>
+                            <ellipse class="st2" cx="400.08" cy="398.34" rx="394.97" ry="395.22"/>
+                        </g>
+                    </svg>
+                </a>
+                    <h1 class="title menu-main">Lara Oz Therapies</h1>
+                    <h2 class="title white-text menu-quote">Combining science and mindfulness</h2>
+                </div>
+                <div class="responsive-menu-options">
+                    <a class="nav-item menu-options" href="./about.html" title="About"><span>About</span></a>
+                    <a class="nav-item menu-options" href="./treatments.html" title="Treatments"><span>Treatments</span></a>
+                    <a class="nav-item menu-options" href="./prices.html" title="Prices"><span>Prices</span></a>
+                    <a class="nav-item menu-options" href="./testimonials.html" title="Testimonials"><span>Testimonials</span></a>
+                </div>
+                <div class="responsive-details">
+                    <a class="nav-item responsive-contact" href="mailto:#" title="Email"><i class="far fa-envelope"></i> Email Enquiry</i></a>
+                    <a class="nav-item responsive-contact" href="tel:0123491623" title="Phone"><i class="fas fa-phone"></i> 01654 787 654</a>
+                </div>
+                <button onclick="window.location.href='./contact.html'" class="menu-btn">Make a Booking</button>
+                <br>
+                <i class="fas nav-item menu-options fa-seedling menu-seedling"></i>
+                <br>
+            </div>
+        </div>
+    
+        <!-- burger bar menu=> animated -->
+        <div class="menu-bars" id="menu-bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!-- navigation and header for larger screens -->
+        <div class="background"> 
+            <nav class="md-hide" id="nav">
+                <a class="nav-item" href="./index.html" title="Home">
+                    <svg class="nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                    <g>
+                        <ellipse class="nav-st0" cx="400.08" cy="200.97" rx="197.24" ry="197.36"/>
+                        <ellipse class="nav-st1" cx="400.08" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="400.08" cy="102.29" rx="98.62" ry="98.68"/>                        
+                        <ellipse class="nav-st1" cx="498.7" cy="200.97" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="301.45" cy="200.97" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st0" cx="400.08" cy="595.7" rx="197.24" ry="197.36"/>
+                        <ellipse class="nav-st1" cx="400.08" cy="694.39" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="400.08" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="498.7" cy="595.7" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="301.45" cy="595.7" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st0" cx="202.83" cy="398.34" rx="197.24" ry="197.36"/>
+                        <ellipse class="nav-st1" cx="301.45" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="104.21" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="202.83" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="202.83" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st0" cx="597.32" cy="398.34" rx="197.24" ry="197.36"/>
+                        <ellipse class="nav-st1" cx="695.94" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="498.7" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="597.32" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st1" cx="597.32" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="nav-st2" cx="400.08" cy="398.34" rx="394.97" ry="395.22"/>
+                    </g>
+                    </svg>
+                </a>
+                <div class="main-menu">
+                    <a class="nav-item nav-options" href="./about.html" title="About"><span>About</span></a>
+                <a class="nav-item nav-options" href="./treatments.html" title="Treatments"><span>Treatments</span></a>
+                <a class="nav-item nav-options" href="./prices.html" title="Prices"><span>Prices</span></a>
+                <a class="nav-item nav-options" href="./testimonials.html" title="Testimonials"><span>Testimonials</span></a>
+                </div>
+                <div class="details">
+                    <a class="nav-item nav-contact" href="" title="Email"><i class="far fa-envelope"></i> Email Enquiry</i></a>
+                    <a class="nav-item nav-contact" href="tel:0123491623" title="Phone"><i class="fas fa-phone"></i> 01654 787 654</a>
+                </div>
+                <button onclick="window.location.href='./contact.html'" class="nav-booking-btn">Make a Booking</button>
+            </nav>
+            <div class="header">
+                <!-- logo svg -->
+                <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                    <g>
+                        <ellipse class="st0" cx="400.08" cy="200.97" rx="197.24" ry="197.36"/>
+                        <ellipse class="st1" cx="400.08" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="400.08" cy="102.29" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="498.7" cy="200.97" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="301.45" cy="200.97" rx="98.62" ry="98.68"/>
+                        <ellipse class="st0" cx="400.08" cy="595.7" rx="197.24" ry="197.36"/>
+                        <ellipse class="st1" cx="400.08" cy="694.39" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="400.08" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="498.7" cy="595.7" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="301.45" cy="595.7" rx="98.62" ry="98.68"/>
+                        <ellipse class="st0" cx="202.83" cy="398.34" rx="197.24" ry="197.36"/>
+                        <ellipse class="st1" cx="301.45" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="104.21" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="202.83" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="202.83" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="st0" cx="597.32" cy="398.34" rx="197.24" ry="197.36"/>
+                        <ellipse class="st1" cx="695.94" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="498.7" cy="398.34" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="597.32" cy="299.66" rx="98.62" ry="98.68"/>
+                        <ellipse class="st1" cx="597.32" cy="497.02" rx="98.62" ry="98.68"/>
+                        <ellipse class="st2" cx="400.08" cy="398.34" rx="394.97" ry="395.22"/>
+                    </g>
+                </svg>
+                <h1 class="title main">Lara Oz Therapies</h1>
+                <h2 class="title white-text quote">Combining science and mindfulness</h2>
+            </div>
+        </div>
+    <main>
+         <h1 class="title sm-contact-header"><i class="far fa-envelope"></i> Get in touch</h1>
+         <p class="main-blurb">Please fill out the contact form to ask a question or make a booking</p>
+            <!-- contact form -->
+        <div class="contact-form-container">
+            <h2 class="title contact-title">Contact Form</h2>
+            <form action="" method="get">
+            <!-- details -->
+                <!-- <label for="first-name">Name</label> -->
+                <input type="text" name="first-name" id="first-name" title="First Name" placeholder="First Name" required>
+                
+                <!-- <label for="surname">Surname</label> -->
+                <input type="text" name="surname" id="surname" title="Surname" placeholder="Surname" required>
+                
+                <!-- <label for="email">Email Address</label> -->
+                <input type="email" name="email-address" id="email-address" title="Email Address" placeholder="Email Address">
+
+                <!-- <label for="phone">Phone Number</label> -->
+                <input type="tel" name="phone-number" id="phone-number" title="Phone Number" placeholder="Phone Number">
+
+            <!-- radio button options -->
+                
+                <h3 class="title message-title">Please select the nature of your message</h3>
+                <div class="radio-container">
+                    <div>
+                        <input type="radio" name="enquiry-radio" id="enquiry-radio" value="enquiry" title="Enquiry">
+                        <label for="enquiry-radio">Enquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="booking-radio" id="booking-radio" value="booking" title="Booking">
+                        <label for="booking-radio">Booking</label>
+                    </div>
+                </div>
+                    
+            <!-- date element: conditional hidden -->
+                <div class="date-container">
+                    <label for="date">Requested Date</label>
+                    <input type="date" name="booking-date" id="booking-date" title="Select Date" placeholder="Select a date">
+                </div>
+                    
+            <!-- message -->
+                <!-- <label for="message">Message</label> -->
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Please write your message here....." required></textarea>
+
+                <button class="submit-btn" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </main>
+<!-- footer -->
+    <footer>
+        <h2 class="title footer-title">book now or send a message to find out more</h2>
+        <a href="./contact.html" class="footer-text" title="Go To Contact Form"><i class="far fa-file-alt"></i> Go To Contact Form</a>
+        <a class="footer-text email" href="mailto:lara-oz@hotmail.co.uk"href="" title="Email"><i class="far fa-envelope"></i> Email Enquiry</i></a>
+        <a class="footer-text" href="tel:0123491623" title="Phone"><i class="fas fa-phone"></i> 01654 787 654</a>
+        <div class="wrapper">
+            <h3 class="title social-title"><i class="fas fa-hand-holding-heart"></i> connect on social media</h3>
+            <div class="social">
+                <a href=""><i class="social-icon fab fa-facebook-f"></i></a> 
+                <a href=""><i class="social-icon fab fa-instagram"></i></a>
+                <a href=""><i class="social-icon fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <span class="copy">&copy Lara Oz Therapies 2021</span>
+        <div class="image-container">
+            <img src="./images/icons/fht.png" alt="" class="massage-training professional-logo">
+            <img src="./images/icons/mti-logo.png" alt="" class="fht professional-logo">
+        </div>
+    </footer>
+<!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
