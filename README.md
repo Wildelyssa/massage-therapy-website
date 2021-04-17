@@ -4,7 +4,7 @@
 HTML template for Lara Oz Therapies. Designed and developed new website from scratch. The client is expanding her business to include yoga and meditation classes. These will be added once she has finished her training. A blog section is currently being developed to engage and inform her clients, and build her audience. 
 HTML template converted to Wordpress using a custom theme built from the template, and advanced custom fields for editting. Full prject will be live soon. 
 
-### See live code here <https://wildelyssa.github.io//> 
+### See live code here <https://wildelyssa.github.io/massage-therapy-website/> 
 
 ## Tech used
 HTML
